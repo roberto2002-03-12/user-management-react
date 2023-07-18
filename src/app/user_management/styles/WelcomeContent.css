@@ -1,0 +1,21 @@
+.welcome_content {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.welcome_tittle {
+  text-align: left;
+  font-size: 100px;
+  color: rgb(20, 169, 206);
+}
+
+.welcome_box_text {
+  width: 75%;
+  margin-bottom: 80px;
+}
+
+.welcome_box_text p {
+  font-size: 20px;
+}

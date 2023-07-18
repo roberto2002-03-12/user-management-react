@@ -1,0 +1,84 @@
+.register_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.register_box {
+  margin: 0 auto;
+  height: 800px;
+  width: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid black;
+  border-radius: 20px;
+  flex-direction: column;
+}
+
+.register_content {
+  width: 100%;
+}
+
+#imgInput {
+  display: none;
+}
+
+.photo_button {
+  border-radius: 20px;
+  background-color: white;
+  width: 223px;
+}
+
+.file_input_title {
+  margin-bottom: 0;
+  font-weight: bold;
+  color: grey;
+}
+
+.file_input_name {
+  color: grey;
+}
+
+.register_textfield {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.register_title {
+  text-align: center;
+  font-size: 18px;
+  color: rgb(113, 113, 113);
+}
+
+.custom_select .MuiOutlinedInput-notchedOutline {
+  border-color: gray !important;
+}
+
+#input_date_custom {
+  border-radius: 4px;
+  border-color: rgba(0, 0, 0, 0.23);
+  width: 223px;
+  height: 56px;
+  text-align: center;
+  color: gray;
+}
+
+.input_date_tittle {
+  position: absolute;
+  font-size: 12px;
+  align-items: center;
+}
+
+.register_buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.register_cancel_link {
+  text-decoration: none;
+}
